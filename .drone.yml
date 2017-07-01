@@ -1,5 +1,8 @@
 pipeline:
-  tags: ${DRONE_TAG}
-  dockerfile: Dockerfile
+  docker:
+    image: plugins/docker
+    dockerfile: ./dock/Dockerfile
+    context: ./dock
+    tags: latest
   when:
     branch: master
