@@ -3,4 +3,4 @@ pipeline:
     image: plugins/docker
     dockerfile: ./dock/Dockerfile
     context: ./dock
-    tags: latest
+     
