@@ -4,5 +4,3 @@ pipeline:
     dockerfile: ./dock/Dockerfile
     context: ./dock
     tags: latest
-  when:
-    branch: master
